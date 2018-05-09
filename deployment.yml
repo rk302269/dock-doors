@@ -10,7 +10,7 @@ apiVersion: extensions/v1beta1
           app: dock-doors-controller
       spec:
         containers:
-        - name: dock-doors-controller  #Your app will be the running container you built
+        - name: dock-doors-controller  #Your app will be the running container you build
           image: gcr.io/bootcamp-102288/dock-doors-controller:v1
           imagePullPolicy: Always
   ---
