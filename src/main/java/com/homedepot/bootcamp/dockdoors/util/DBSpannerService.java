@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class DBSpannerService {
 
-    private static String project="bootcamp-102288",instance="homedepot",database="casestudy";
+    private static String project="bootcamp-102288",instance="homedepot",database="dock_doors";
 
 
         public DatabaseClient getDBConnection() {
