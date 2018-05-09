@@ -19,10 +19,10 @@ import java.util.UUID;
 @Repository
 public class DoorRepositorySpannerImpl implements DoorRepository{
 
-    @Autowired
-    DBSpannerService dbSpannerService;
 
-    @Autowired
+    private DBSpannerService dbSpannerService;
+
+
     public DoorRepositorySpannerImpl(DBSpannerService dbSpannerService) {
         this.dbSpannerService = dbSpannerService;
     }
@@ -32,7 +32,7 @@ public class DoorRepositorySpannerImpl implements DoorRepository{
 
     @Override
     public List<Door> getAllDoors() {
-        List<Door> doors = new ArrayList<Door>();
+        List<Door> doors = new ArrayList<>();
 
         try {
             String sqlQuery = "SELECT  * FROM door";
@@ -58,7 +58,7 @@ public class DoorRepositorySpannerImpl implements DoorRepository{
     public Door getDoor(String doorId) {
         Door door = new Door();
         try {
-            String sqlQuery = "SELECT  * FROM door where door_id="+doorId;
+            String sqlQuery = "SELECT  * FROM door where door_id='"+doorId+"'";
 
             ResultSet rs = dbSpannerService.getDBConnection().singleUse().executeQuery(Statement.of(sqlQuery));
 

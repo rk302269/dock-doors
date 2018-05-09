@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin("*")
 public class DoorController {
 
-    @Autowired
-    DoorRepository doorRepository;
+
+    private DoorRepository doorRepository;
 
     public DoorController(DoorRepository doorRepository) {
         this.doorRepository = doorRepository;

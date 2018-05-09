@@ -12,16 +12,16 @@
     </option>
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/../../../Shared/Downloads/template-spring-microservice-master" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Shared/workspace/POC-KubernetesSpringBoot" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Shared/workspace/bootcamp-casestudy" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Shared/workspace/build-test" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Shared/workspace/inventory-core" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Shared/workspace/my-workspace/asn-core" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Shared/workspace/my-workspace/commons-lib" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Shared/workspace/my-workspace/inventory-core" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Shared/workspace/my-workspace/route-core" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Shared/workspace/template-spring-microservice" value="PREVIEW" />
+        <entry key="$USER_HOME$/Shared/Downloads/template-spring-microservice-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/Shared/workspace/POC-KubernetesSpringBoot" value="PREVIEW" />
+        <entry key="$USER_HOME$/Shared/workspace/bootcamp-casestudy" value="PREVIEW" />
+        <entry key="$USER_HOME$/Shared/workspace/build-test" value="PREVIEW" />
+        <entry key="$USER_HOME$/Shared/workspace/inventory-core" value="PREVIEW" />
+        <entry key="$USER_HOME$/Shared/workspace/my-workspace/asn-core" value="PREVIEW" />
+        <entry key="$USER_HOME$/Shared/workspace/my-workspace/commons-lib" value="PREVIEW" />
+        <entry key="$USER_HOME$/Shared/workspace/my-workspace/inventory-core" value="PREVIEW" />
+        <entry key="$USER_HOME$/Shared/workspace/my-workspace/route-core" value="PREVIEW" />
+        <entry key="$USER_HOME$/Shared/workspace/template-spring-microservice" value="PREVIEW" />
         <entry key="$USER_HOME$/demo" value="PREVIEW" />
       </map>
     </option>
@@ -159,6 +159,9 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
   <component name="libraryTable">
     <library name="Gradle: ch.qos.logback:logback-classic:1.2.3">
