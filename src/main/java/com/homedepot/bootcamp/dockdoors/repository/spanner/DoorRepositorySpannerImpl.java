@@ -27,8 +27,6 @@ public class DoorRepositorySpannerImpl implements DoorRepository{
         this.dbSpannerService = dbSpannerService;
     }
 
-   // static Logger logger = Logger.getLogger(DoorRepositorySpannerImpl.class);
-
 
     @Override
     public List<Door> getAllDoors() {

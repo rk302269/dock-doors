@@ -23,12 +23,11 @@ public class DoorController {
 
     @RequestMapping(value = "/getAppStatus", method = RequestMethod.GET)
     public ResponseEntity<?> getAppState() {
-        return new ResponseEntity<>("Dock-Doors-Controller is running", HttpStatus.OK);
+        return new ResponseEntity<>("Dock-Doors-Controller App is Up & Running", HttpStatus.OK);
     }
 
     @RequestMapping(value = "/getAllDoors", method = RequestMethod.GET)
     public ResponseEntity<?> getDoors() {
-        System.out.println("Call getAllDoors methods");
         try {
             return new ResponseEntity<>(doorRepository.getAllDoors(), HttpStatus.OK);
         } catch (Exception e) {
