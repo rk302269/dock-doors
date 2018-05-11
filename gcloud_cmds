@@ -1,1 +1,8 @@
-./gradlew build
+
+Build the Jar in Cloud Shell  =   ./gradlew build
+Delete a Kubernates deployment = kubectl delete deployment <APP_NAME> --namespace=<NAMESPACE_NAME>
+Get All Kubernates deployments = kubectl get deployments
+Get All Kubernates pods = kubectl get pods
+Delete Kubernates Pod = kubectl delete pods <POD_NAME>
+Expose ur App to External Traffic = kubectl expose deployment <APP_NAME> --type=LoadBalancer
+See y=ur services = kubectl get services

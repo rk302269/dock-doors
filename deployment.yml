@@ -9,10 +9,25 @@ apiVersion: extensions/v1beta1
         labels:
           app: dock-doors-controller
       spec:
+        volumes:
+        - name: spanner-creds
+        secret:
+         secretName: spanner-cred
         containers:
         - name: dock-doors-controller  #Your app will be the running container you build
           image: gcr.io/bootcamp-102288/dock-doors-controller:v1
           imagePullPolicy: Always
+          env:
+           - name: GOOGLE_APPLICATION_CREDENTIALS
+             value: /secrets/app-secrets/bootcamp-102288-832691f2a0b0.json
+           - name: PROJECT_ID
+             value: bootcamp-102288
+          volumeMounts:
+           - name: spanner-creds
+             mountPath: /secrets/app-secrets
+             readOnly: true
+
+
   ---
   kind: Service
   apiVersion: v1
@@ -32,3 +47,6 @@ apiVersion: extensions/v1beta1
     - 207.11.0.0/17
     - 50.207.27.182/32
     - 98.6.11.8/29
+
+
+
