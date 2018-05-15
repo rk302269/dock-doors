@@ -6,3 +6,23 @@ Get All Kubernates pods = kubectl get pods
 Delete Kubernates Pod = kubectl delete pods <POD_NAME>
 Expose ur App to External Traffic = kubectl expose deployment <APP_NAME> --type=LoadBalancer
 See y=ur services = kubectl get services
+
+
+
+##bash commands :
+chmod +x deploy.sh
+s -la deploy.sh
+cat template.yml | sed 's|{{image_name}}|abcdef|' > abc.yml
+
+
+##deploy image to Kubernatis :
+kubectl apply -f deployment.yml
+
+##push image to kubernatis
+gcloud docker -- push gcr.io/bootcamp-102288/dock-doors-controller:v3
+
+###create docker image
+docker build -t gcr.io/bootcamp-102288/dock-doors-controller:v3 .
+
+##create secret in kubernatis
+kubectl create secret generic spanner-cred --from-file=/Users/thduser/RAM/bootcamp-102288-832691f2a0b0.json
