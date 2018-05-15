@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e094624-9c5f-4a8b-b0bb-83ebfdb19156" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/template.yml" />
-      <change beforePath="$PROJECT_DIR$/deployment.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dock-doors.iws" afterPath="$PROJECT_DIR$/dock-doors.iws" />
-      <change beforePath="$PROJECT_DIR$/gcloud_cmds" afterPath="$PROJECT_DIR$/gcloud_cmds" />
-    </list>
+    <list default="true" id="2e094624-9c5f-4a8b-b0bb-83ebfdb19156" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -56,8 +51,8 @@
       <file leaf-file-name="gcloud_cmds" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gcloud_cmds">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="107" lean-forward="false" selection-start-line="26" selection-start-column="107" selection-end-line="26" selection-end-column="107" />
+            <state relative-caret-position="405">
+              <caret line="27" column="107" lean-forward="false" selection-start-line="27" selection-start-column="107" selection-end-line="27" selection-end-column="107" />
               <folding />
             </state>
           </provider>
@@ -810,12 +805,12 @@
       <workItem from="1525700745171" duration="9508000" />
       <workItem from="1525804730002" duration="4575000" />
       <workItem from="1526065347158" duration="6820000" />
-      <workItem from="1526407286743" duration="1983000" />
+      <workItem from="1526407286743" duration="2072000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26575000" />
+    <option name="totallyTimeSpent" value="26664000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1419" height="947" extended-state="0" />
@@ -1269,8 +1264,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gcloud_cmds">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="107" lean-forward="false" selection-start-line="26" selection-start-column="107" selection-end-line="26" selection-end-column="107" />
+        <state relative-caret-position="405">
+          <caret line="27" column="107" lean-forward="false" selection-start-line="27" selection-start-column="107" selection-end-line="27" selection-end-column="107" />
           <folding />
         </state>
       </provider>
